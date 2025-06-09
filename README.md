@@ -63,19 +63,13 @@ If you use ice-WEDGE in your research, please cite:
 
 Ribeiro, I. A.; Qiu, Y.; Metya, A. K.; Molinero, V. *Topographical Defects Can Confer Exceptional Ice Nucleation Ability to Mediocre Nucleants*, \[Journal], (2025).
 
+## Acknowledgement
+
+I. de A. R and V. M. gratefully acknowledge support by AFOSR through MURI Award No. FA9550-20-1-0351.
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-## Contact
 
-For questions or contributions, please contact:
-
-**Valeria Molinero**
-*Department of Chemistry, University of Utah*
-[valeria.molinero@utah.edu](mailto:valeria.molinero@utah.edu)
-
----
-
-**Developed by**: Ingrid de Almeida Ribeiro, Yuqing Qiu, Atanu K. Metya, and the Molinero Group
 
