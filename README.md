@@ -19,7 +19,7 @@ CNT training data used to train the GPR model `data-GPR-model.xlsx`
 Users can directly define the following parameters in the notebook:
 - Wedge angle (eta) in degrees (between 20°–180°)
 - Wedge depth (h) in nm
-- Temperature of the flat surface $T_{flat}$ in K.  (Used to determine the binding energy: determines how strongly the surface binds to ice)
+- Temperature of the flat surface $T_{flat}$ in K (used to determine the binding energy)
 
 ## How to Use
 
@@ -31,11 +31,11 @@ Run each cell sequentially:
 
 - The notebook begins by setting up the data and computing $T_{flat}$ for various binding energies.
 - It fits Gaussian Process models for different binding strengths.
-- The user can input custom geometries to predict $T_{het} and assess which nucleation barrier dominates.
+- The user can input custom geometries to predict $T_{het}$ and assess which nucleation barrier dominates.
 
 ## Outputs
 
-- Thet predictions: Nucleation temperature within the wedge
+- $T_{het}$ predictions: Nucleation temperature within the wedge, and outside the wedge
 - Shape of the critical nucleus inside the wedge
 - Dominant barrier: Either $B_1$ (internal) or $B_2$ (external) is identified
 - Plots: GPR fits
