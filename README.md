@@ -1,26 +1,52 @@
 # ice-wedge: Predicting Ice Nucleation in Wedge Geometries
 
-**ice-WEDGE** is an open-source Python toolkit for predicting heterogeneous ice nucleation temperatures and critical nucleus geometry in wedge-shaped surface defects. Built on Classical Nucleation Theory (CNT) and the HINT algorithm, the tool leverages Gaussian Process Regression (GPR) to interpolate simulation data across wedge angles, depths, and surface binding strengths.
+**ice-WEDGE** is an open-source Python toolkit for predicting heterogeneous ice nucleation temperatures and critical nucleus geometry in wedge-shaped surface defects. Built on Classical Nucleation Theory (CNT) and the HINT algorithm, the tool uses Gaussian Process Regression (GPR) to interpolate CNT data across wedge angles, depths, and surface binding strengths.
 
 ## Requirements
 
 Make sure you have the following Python packages installed:
 
-pip install numpy pandas matplotlib scipy scikit-learn openpyxl
+`pip install numpy pandas matplotlib scipy scikit-learn`
 
-## Output:
+or
 
-Returns a prediction of:
+`conda install numpy pandas matplotlib scipy scikit-learn`
 
-* Heterogeneous nucleation temperature (Thet)
-* Dominant barrier (ΔGin or ΔGout)
-* Nucleus geometry (contact angle, radius, number of water molecules)
+## Inputs
+
+CNT training data used to train the GPR model `data-GPR-model.xlsx`
+
+Users can directly define the following parameters in the notebook:
+- Wedge angle (eta) in degrees (between 20°–180°)
+- Wedge depth (h) in nm
+- Temperature of the flat surface $T_{flat}$ in K.  (Used to determine the binding energy: determines how strongly the surface binds to ice)
+
+## How to Use
+
+Open the notebook:
+
+`jupyter notebook predict-wedgeHINT-GPR.ipynb`
+
+Run each cell sequentially:
+
+- The notebook begins by setting up the data and computing $T_{flat}$ for various binding energies.
+- It fits Gaussian Process models for different binding strengths.
+- The user can input custom geometries to predict $T_{het} and assess which nucleation barrier dominates.
+
+## Outputs
+
+- Thet predictions: Nucleation temperature within the wedge
+- Shape of the critical nucleus inside the wedge
+- Dominant barrier: Either $B_1$ (internal) or $B_2$ (external) is identified
+- Plots: GPR fits
 
 ## Citation
 
 If you use ice-WEDGE in your research, please cite:
 
 Ribeiro, I. A.; Qiu, Y.; Metya, A. K.; Molinero, V. *Topographical Defects Can Confer Exceptional Ice Nucleation Ability to Mediocre Nucleants*, \[Journal], (2025).
+
+You are welcome to use and distribute this code as you see fit, but it remains the intellectual property of the authors and must be cited appropriately (please cite the paper). Direct any questions about this code to: Ingrid de A. Ribeiro (ingrid.ribeiro@utah.edu), or create an issue in this Github repository.
 
 ## Acknowledgement
 
