@@ -37,7 +37,7 @@ Run each cell sequentially:
 
 - $T_{het}$ predictions: Nucleation temperature within the wedge, and outside the wedge
 - Shape of the critical nucleus inside the wedge
-- Which barrier is dominant
+- The dominant barrier
 - Plots: GPR fits
 
 ## Citation
