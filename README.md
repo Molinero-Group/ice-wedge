@@ -37,14 +37,14 @@ Run each cell sequentially:
 
 - $T_{het}$ predictions: Nucleation temperature within the wedge, and outside the wedge
 - Shape of the critical nucleus inside the wedge
-- Dominant barrier: Either $B_1$ (internal) or $B_2$ (external) is identified
+- Which barrier is dominant
 - Plots: GPR fits
 
 ## Citation
 
 If you use ice-WEDGE in your research, please cite:
 
-Ribeiro, I. A.; Qiu, Y.; Metya, A. K.; Molinero, V. *Topographical Defects Can Confer Exceptional Ice Nucleation Ability to Mediocre Nucleants*, \[Journal], (2025).
+Ribeiro, I. A.; Qiu, Y.; Gadea, E.; Metya, A. K.; Molinero, V. *Confinement-Enhanced Ice Nucleation: Turning Surface Weakness in-to Strength*, \[Journal], (2025).
 
 You are welcome to use and distribute this code as you see fit, but it remains the intellectual property of the authors and must be cited appropriately (please cite the paper). Direct any questions about this code to: Ingrid de A. Ribeiro (ingrid.ribeiro@utah.edu), or create an issue in this Github repository.
 
