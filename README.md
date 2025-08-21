@@ -14,7 +14,7 @@ or
 
 ## Inputs
 
-CNT training data used to train the GPR model `data-CNT.xlsx`
+CNT training data used to train the GPR model `data-GPR-model.xlsx`
 
 Users can directly define the following parameters in the notebook:
 - Wedge angle (eta) in degrees (between 20°–180°)
