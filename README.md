@@ -46,25 +46,11 @@ The trained model is used to interpolate nucleation temperatures for arbitrary w
 - $T_{het}$ predictions: Nucleation temperature within the wedge, and outside the wedge
 - Shape of the critical nucleus inside the wedge
 - The dominant barrier
-- Plots: GPR fits
+- Plots: GPR fits and predicted nucleation temperatures vs. geometry
 
-See below screenshots of the outputs from the code
+Example Output Screenshots
 
-<br><br>
-
-<img width="423" height="322" alt="image" src="https://github.com/user-attachments/assets/58d2a12e-ed2e-408c-8222-fe9aa40a4d71" />
-
-<br><br>
-
-<img width="436" height="296" alt="image" src="https://github.com/user-attachments/assets/c3194efb-e66b-488e-b984-50b6f023c0aa" />
-
-<br><br>
-
-<img width="599" height="300" alt="image" src="https://github.com/user-attachments/assets/2a4216c3-f82e-4937-bae6-7f33fd26a088" />
-
-<br><br>
-
-<img width="988" height="540" alt="image" src="https://github.com/user-attachments/assets/5fa14d49-e7f3-4420-8e8c-012cfb5e4efd" />
+<table> <tr> <td align="center" width="50%" style="padding: 10px;"> <img width="423" height="322" alt="GPR results" src="https://github.com/user-attachments/assets/58d2a12e-ed2e-408c-8222-fe9aa40a4d71" /> <br/> <sub>Critical nucleus shape inside the wedge</sub> </td> <td align="center" width="50%" style="padding: 10px;"> <img width="436" height="296" alt="Thet as a function of geometry" src="https://github.com/user-attachments/assets/c3194efb-e66b-488e-b984-50b6f023c0aa" /> <br/> <sub>Thet as a function of geometry</sub> </td> </tr> <tr> <td align="center" width="50%" style="padding: 10px;"> <img width="599" height="300" alt="Critical nucleus shape" src="https://github.com/user-attachments/assets/2a4216c3-f82e-4937-bae6-7f33fd26a088" /> <br/> <sub>Thet inside and outside the wedge</sub> </td> <td align="center" width="50%" style="padding: 10px;"> <img width="988" height="540" alt="Barrier dominance map" src="https://github.com/user-attachments/assets/5fa14d49-e7f3-4420-8e8c-012cfb5e4efd" /> <br/> <sub>GPR plots</sub> </td> </tr> </table>
 
 ## Citation
 
