@@ -32,7 +32,7 @@ Open the notebook:
 
 `jupyter notebook predict-wedgeHINT-GPR.ipynb`
 
->>>>>Run each cell sequentially<<<<<
+Run each cell sequentially
 
 - The notebook begins by setting up the data and computing $T_{flat}$ for various binding energies.
 - It fits Gaussian Process models for different binding strengths.
@@ -47,6 +47,8 @@ The trained model is used to interpolate nucleation temperatures for arbitrary w
 - Shape of the critical nucleus inside the wedge
 - The dominant barrier
 - Plots: GPR fits
+
+See below screenshots of the outputs from the code
 
 <br><br>
 
