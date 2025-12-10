@@ -21,10 +21,8 @@ Users can directly define the following parameters in the notebook:
 - Wedge depth (h) in nm
 - Temperature of the flat surface $T_{flat}$ in K (used to determine the binding energy)
 - Contact angle β of the outer surface
-
 <br><br>
-
-<img width="1005" height="390" alt="image" src="https://github.com/user-attachments/assets/50043905-1962-4b56-ab71-cc54fb66377f" />
+<img width="780" height="311" alt="image" src="https://github.com/user-attachments/assets/285075cc-e722-49d3-9ae9-72eb50dd5134" />
 
 ## How to Use
 
