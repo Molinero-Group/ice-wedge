@@ -6,11 +6,11 @@
 
 Make sure you have the following Python packages installed:
 
-`pip install numpy pandas matplotlib scipy scikit-learn`
+`pip install numpy pandas matplotlib scipy scikit-learn openpyxl`
 
 or
 
-`conda install numpy pandas matplotlib scipy scikit-learn`
+`conda install numpy pandas matplotlib scipy scikit-learn openpyxl`
 
 ## Inputs
 
@@ -20,6 +20,10 @@ Users can directly define the following parameters in the notebook:
 - Wedge angle (eta) in degrees (between 20°–180°)
 - Wedge depth (h) in nm
 - Temperature of the flat surface $T_{flat}$ in K (used to determine the binding energy)
+- Contact angle β of the outer surface
+
+<img width="1005" height="390" alt="image" src="https://github.com/user-attachments/assets/50043905-1962-4b56-ab71-cc54fb66377f" />
+
 
 ## How to Use
 
@@ -27,11 +31,14 @@ Open the notebook:
 
 `jupyter notebook predict-wedgeHINT-GPR.ipynb`
 
-Run each cell sequentially:
+>>>>>Run each cell sequentially<<<<<
 
 - The notebook begins by setting up the data and computing $T_{flat}$ for various binding energies.
 - It fits Gaussian Process models for different binding strengths.
 - The user can input custom geometries to predict $T_{het}$ and assess which nucleation barrier dominates.
+
+The Gaussian Process model is trained using a radial basis function (RBF) kernel and optimized to minimize prediction error across wedge geometries. 
+The trained model is used to interpolate nucleation temperatures for arbitrary wedge angles and depths.
 
 ## Outputs
 
@@ -39,6 +46,14 @@ Run each cell sequentially:
 - Shape of the critical nucleus inside the wedge
 - The dominant barrier
 - Plots: GPR fits
+
+<img width="423" height="322" alt="image" src="https://github.com/user-attachments/assets/58d2a12e-ed2e-408c-8222-fe9aa40a4d71" />
+
+<img width="436" height="296" alt="image" src="https://github.com/user-attachments/assets/c3194efb-e66b-488e-b984-50b6f023c0aa" />
+
+<img width="599" height="300" alt="image" src="https://github.com/user-attachments/assets/2a4216c3-f82e-4937-bae6-7f33fd26a088" />
+
+<img width="988" height="540" alt="image" src="https://github.com/user-attachments/assets/5fa14d49-e7f3-4420-8e8c-012cfb5e4efd" />
 
 ## Citation
 
