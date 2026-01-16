@@ -54,7 +54,7 @@ Example Output Screenshots
 
 If you use ice-WEDGE in your research, please cite:
 
-Ribeiro, I. A.; Qiu, Y.; Gadea, E.; Metya, A. K.; Molinero, V. *Immersion Freezing at Topographic Active Sites: Dual-Barrier Prediction of Ice Nucleation Temperatures*, \[Journal], (2025).
+Ribeiro, I. A.; Qiu, Y.; Gadea, E. D.; Metya, A. K.; Molinero, V. *Immersion Freezing at Topographic Active Sites: Dual-Barrier Prediction of Ice Nucleation Temperatures*, J. Am. Chem. Soc. 2026 (DOI: 10.1021/jacs.5c17698)
 
 The code and dataset are archived in Zenodo (DOI: 10.5281/zenodo.18201939). You are welcome to use and distribute this code as you see fit, but it remains the intellectual property of the authors and must be cited appropriately (please cite the paper). Direct any questions about this code to: Ingrid de A. Ribeiro (ingrid.ribeiro@utah.edu), or create an issue in this Github repository.
 
